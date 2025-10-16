@@ -1,13 +1,5 @@
 title: Yongjae Yoo
-description: Wireless & AI Engineer — CV & Projects
+description: This is my personal site where I document my CVs and random ideas that pop into my head during downtime.
 url: https://lowbyyj.github.io
-baseurl: ""    # 사용자 페이지는 빈 문자열
-# GitHub Pages 기본 빌더로 충분합니다(plugins 미지정 권장).
-# 필요시 아래처럼 허용 플러그인 추가 가능(선택):
-# plugins:
-#   - jekyll-seo-tag
-#   - jekyll-feed
-#   - jekyll-sitemap
-
-# 테마 파일을 '벤더링'했으므로 theme/remote_theme 설정은 하지 않습니다.
+baseurl: ""   
 permalink: /:categories/:title/
