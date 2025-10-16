@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Welcome to Yongjae Yoo's page
 permalink: /
 ---
