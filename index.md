@@ -121,17 +121,17 @@ Mar. 2022 – Feb. 2025
 
 ## Certifications &amp; Licenses
 ---
-Pilot of an Ultra Light Vehicle — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11
-Samsung Software Certificate — Advanced
-Data Science Specialist — Level 1
-Generative AI Power User — Level 2
+Pilot of an Ultra Light Vehicle — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
+Samsung Software Certificate — Advanced  
+Data Science Specialist — Level 1  
+Generative AI Power User — Level 2  
 
 
 
 ## References
 ---
-**Google Scholar** — <https://scholar.google.co.kr/citations?user=O4IdPk4AAAAJ>
-**IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>
-**LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
+**Google Scholar** — <https://scholar.google.co.kr/citations?user=O4IdPk4AAAAJ>  
+**IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
+**LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>  
 
 <div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2025-10-16</div>
