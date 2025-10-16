@@ -25,9 +25,8 @@ Communication Processor R&amp;D Team
 
 <div style="clear:both"></div>
 
-
-
-
+<br>
+<br>
 
 ## Current Role
 ---
@@ -40,9 +39,8 @@ Communication Processor R&amp;D Team
 
   <sub>details withheld due to company policy</sub>
 
-
-
-
+<br>
+<br>
 
 ## Research Interests
 ---
@@ -53,9 +51,8 @@ Communication Processor R&amp;D Team
 - **Real-world cellular network measurement** &amp; technique development using drones and diverse equipment
 - **Machine learning** applications to the above problems
 
-
-
-
+<br>
+<br>
 
 ## Recent Research Issues
 ---
@@ -64,9 +61,8 @@ On-the-air network measurements, real-world experiments, custom Android applicat
 
 **Mobile Edge Computing, AI**
 
-
-
-
+<br>
+<br>
 
 ## Education
 ---
@@ -77,9 +73,8 @@ On-the-air network measurements, real-world experiments, custom Android applicat
 **Seoul National University**, Seoul, Republic of Korea
 B.S. in Department of Electrical and Computer Engineering, Feb. 2019
 
-
-
-
+<br>
+<br>
 
 ## Experience
 ---
@@ -93,9 +88,8 @@ Sep. 2017 – Mar. 2018
 Technical Research Personnel
 Mar. 2022 – Feb. 2025
 
-
-
-
+<br>
+<br>
 
 ## Leadership / Teaching
 ---
@@ -110,19 +104,17 @@ Mar. 2022 – Feb. 2025
 - 400.420 Engineering Research Practice 2, *Spatial information analysis using Wi-Fi CSI data*, Fall 2020
 - 430.405 Design Project for Electrical Devices & Systems, *Wi-Fi CSI Analysis Study for People Counting with Obstacles in Disaster Sites*, Spring 2022
 
-
-
-
-
+<br>
+<br>
 
 ## Research Project
 ---
+<span style="color:#1f4e79; font-style:italic;">Agreement Manager</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024  
 <span style="color:#1f4e79; font-style:italic;">Center Officer</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023
 <span style="color:#1f4e79; font-style:italic;">Participating Researcher</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
 
-
-
-
+<br>
+<br>
 
 ## Selected Recent Publications
 ---
@@ -133,9 +125,8 @@ Mar. 2022 – Feb. 2025
 5. Jihwan Suh, **Yongjae Yoo**, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
 6. Dokyun Ryoo, **Yongjae Yoo**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
 
-
-
-
+<br>
+<br>
 
 ## Certifications &amp; Licenses
 ---
@@ -144,9 +135,8 @@ Samsung Software Certificate — Advanced
 Data Science Specialist — Level 1  
 Generative AI Power User — Level 2  
 
-
-
-
+<br>
+<br>
 
 ## References
 ---
