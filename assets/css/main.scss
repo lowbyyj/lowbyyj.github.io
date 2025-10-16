@@ -208,32 +208,3 @@ blockquote div {
     font-size: 12px;
   }
 }
-
-/* Hero: text left, photo right */
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  /* 오른쪽 사진 폭 */
-  gap: 1.25rem;
-  align-items: start;
-}
-
-.hero .photo {
-  width: 100%;
-  max-width: 220px;
-  aspect-ratio: 2 / 3;
-  /* 1120x1680 비율 */
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-@media (max-width: 720px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .hero .photo {
-    max-width: 180px;
-    justify-self: start;
-  }
-}
