@@ -44,22 +44,22 @@ Communication Processor R&amp;D Team
 
 ## Research Interests
 ---
-- Systems / computer structures related to <u>**wireless networks**</u>
-- <u>**Physical / software solutions**</u> for problems in such systems
-- <u>**Security analysis &amp; mitigation**</u> in wireless networks and mobile devices
-- <u>**Network functions &amp; performance**</u> improvement for IoT devices
-- <u>**Real-world cellular network measurement**</u> &amp; technique development using drones and diverse equipment
-- <u>**Machine learning**</u> applications to the above problems
+- Systems / computer structures related to **<u>wireless networks</u>**
+- **<u>Physical / software solutions</u>** for problems in such systems
+- **<u>Security analysis &amp; mitigation</u>** in wireless networks and mobile devices
+- **<u>Network functions &amp; performance</u>** improvement for IoT devices
+- **<u>Real-world cellular network measurement</u>** &amp; technique development using drones and diverse equipment
+- **<u>Machine learning</u>** applications to the above problems
 
 <br>
 <br>
 
 ## Recent Research Issues
 ---
-<u>**Drone Networks**</u>
+**<u>Drone Networks</u>**
 On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
 
-<u>**Mobile Edge Computing, AI**</u>
+**<u>Mobile Edge Computing, AI</u>**
 
 <br>
 <br>
@@ -118,17 +118,17 @@ Mar. 2022 – Feb. 2025
 
 ## Selected Recent Publications
 ---
-1. <u>**Yongjae Yoo**</u>, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
+1. **<u>Yongjae Yoo</u>**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
 
-2. <u>**Yongjae Yoo**</u>, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
+2. **<u>Yongjae Yoo</u>**, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
 
-3. <u>**Yongjae Yoo**</u>, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
+3. **<u>Yongjae Yoo</u>**, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
 
-4. Jeongyoon Heo, <u>**Yongjae Yoo**</u>, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
+4. Jeongyoon Heo, **<u>Yongjae Yoo</u>**, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
 
-5. Jihwan Suh, <u>**Yongjae Yoo**</u>, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
+5. Jihwan Suh, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
 
-6. Dokyun Ryoo, <u>**Yongjae Yoo**</u>, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
+6. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
 
 <br>
 <br>
