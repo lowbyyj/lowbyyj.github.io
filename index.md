@@ -116,7 +116,7 @@ Mar. 2022 – Feb. 2025
 <br>
 <br>
 
-## Selected Recent Publications
+## Selected Recent Publications {: #publications}
 ---
 1. **<u>Yongjae Yoo</u>**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
 
