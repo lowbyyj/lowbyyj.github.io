@@ -1,4 +1,6 @@
---- # Jekyll front matter for SCSS ---
+---
+# Jekyll front matter for SCSS
+---
 
 /* ===============================
    FONT FACE
@@ -6,7 +8,7 @@
 @font-face {
   font-family: 'fabfont';
   src: url('{{ "/assets/font/DejaVuSansMono.woff2" | relative_url }}') format('woff2'),
-  url('{{ "/assets/font/DejaVuSansMono.woff" | relative_url }}') format('woff');
+       url('{{ "/assets/font/DejaVuSansMono.woff" | relative_url }}') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +17,7 @@
 @font-face {
   font-family: 'fabfont';
   src: url('{{ "/assets/font/DejaVuSansMono-Bold.woff2" | relative_url }}') format('woff2'),
-  url('{{ "/assets/font/DejaVuSansMono-Bold.woff" | relative_url }}') format('woff');
+       url('{{ "/assets/font/DejaVuSansMono-Bold.woff" | relative_url }}') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: block;
@@ -53,7 +55,6 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -77,10 +78,7 @@ div.heading {
   margin-top: 4ch;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 4ch;
@@ -89,8 +87,7 @@ h4 {
 /* ===============================
    CODE & PRE BLOCKS
    =============================== */
-pre,
-code {
+pre, code {
   font-family: 'fabfont', monospace;
 }
 
@@ -120,10 +117,7 @@ pre code {
 /* ===============================
    IMAGES & MEDIA
    =============================== */
-img,
-video,
-canvas,
-iframe {
+img, video, canvas, iframe {
   max-width: 100%;
   height: auto;
   display: block;
@@ -135,8 +129,7 @@ img {
   margin-bottom: 2ch;
 }
 
-img.pixel,
-canvas.pixel {
+img.pixel, canvas.pixel {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -161,7 +154,6 @@ blockquote {
   padding: 2ch 1ch;
   margin: 0 0 2ch 0;
 }
-
 blockquote div {
   text-transform: none;
   text-align: right;
@@ -181,7 +173,6 @@ blockquote div {
   border-left: 1px solid black;
   padding-left: 1ch;
 }
-
 .trivia::before {
   font-weight: bold;
   text-decoration: underline;
