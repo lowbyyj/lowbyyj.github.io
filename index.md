@@ -4,32 +4,28 @@ title: Welcome to Yongjae Yoo's page
 permalink: /
 ---
 
-<div class="hero">
-  <div markdown="1">
+<img
+  src="{{ '/assets/images/yj-portrait.jpg' | relative_url }}"
+  alt="Portrait of Yongjae Yoo"
+  style="float:right;width:220px;max-width:35%;height:auto;border-radius:12px;margin:0 0 1rem 1rem;object-fit:cover;aspect-ratio:2/3"
+  width="1120" height="1680"
+  loading="lazy" decoding="async" fetchpriority="low"
+/>
 
-# Yongjae Yoo <span style="font-size:.6em; font-weight:600; letter-spacing:.02em;">Ph.D.</span>
+# Yongjae Yoo <span style="font-size:.6em; font-weight:600; letter-spacing:.02em;">Ph.D.</span>  
 <span style="color:#777;">Electrical &amp; Computer Engineering, Seoul National University</span>
 
-### Samsung Electronics — MX (Mobile eXperience) Business
-Communication Processor R&amp;D Team
+### Samsung Electronics — MX (Mobile eXperience) Business  
+Communication Processor R&amp;D Team  
 **Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
 
-- Home: <https://lowbyyj.github.io>
-- Phone: (+82) 02 880 8434 <span style="color:#777;">(currently-unavailable)</span>
+- Home: <https://lowbyyj.github.io>  
+- Phone: (+82) 02 880 8434 <span style="color:#777;">(currently-unavailable)</span>  
 - Email: <yooyongjae@gmail.com>
 
 ---
 
-  </div>
-  <div>
-    <img
-      class="photo"
-      src="{{ '/assets/images/yj-portrait.jpg' | relative_url }}"
-      alt="Portrait of Yongjae Yoo"
-      width="1120" height="1680"
-      loading="lazy" decoding="async" fetchpriority="low" />
-  </div>
-</div>
+<div style="clear:both"></div>
 
 ---
 
