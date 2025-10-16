@@ -44,22 +44,22 @@ Communication Processor R&amp;D Team
 
 ## Research Interests
 ---
-- Systems / computer structures related to **wireless networks**
-- **Physical / software solutions** for problems in such systems
-- **Security analysis &amp; mitigation** in wireless networks and mobile devices
-- **Network functions &amp; performance** improvement for IoT devices
-- **Real-world cellular network measurement** &amp; technique development using drones and diverse equipment
-- **Machine learning** applications to the above problems
+- Systems / computer structures related to <u>**wireless networks**</u>
+- <u>**Physical / software solutions**</u> for problems in such systems
+- <u>**Security analysis &amp; mitigation**</u> in wireless networks and mobile devices
+- <u>**Network functions &amp; performance**</u> improvement for IoT devices
+- <u>**Real-world cellular network measurement**</u> &amp; technique development using drones and diverse equipment
+- <u>**Machine learning**</u> applications to the above problems
 
 <br>
 <br>
 
 ## Recent Research Issues
 ---
-**Drone Networks**
+<u>**Drone Networks**</u>
 On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
 
-**Mobile Edge Computing, AI**
+<u>**Mobile Edge Computing, AI**</u>
 
 <br>
 <br>
@@ -78,13 +78,13 @@ B.S. in Department of Electrical and Computer Engineering, Feb. 2019
 
 ## Experience
 ---
-<span style="color:#1f4e79; font-style:italic;">Exchange Student</span> at **The University of Tokyo**, Tokyo, Japan
+<span style="color:#1f4e79; font-style:italic;">**Exchange Student**</span> at **The University of Tokyo**, Tokyo, Japan
 Department of Information and Communication Engineering
 Sep. 2017 – Mar. 2018
 - **Language Ability:** JLPT **N1** (Japanese Language Proficiency Test, **Highest** level certified)
 - **Coursework:** Artificial Intelligence (Prof. Hitoshi Iba), Human Interface (Prof. Takeshi Naemura)
 
-<span style="color:#1f4e79; font-style:italic;">Military Service</span> in **Korean Army**
+<span style="color:#1f4e79; font-style:italic;">**Military Service**</span> in **Korean Army**
 Technical Research Personnel
 Mar. 2022 – Feb. 2025
 
@@ -94,8 +94,8 @@ Mar. 2022 – Feb. 2025
 ## Leadership / Teaching
 ---
 **Ubiquitous Network Laboratory (SNU)**
-- <span style="color:#1f4e79; font-style:italic;">Lab Captain</span>, Jan. 2023 – Dec. 2023
-- <span style="color:#1f4e79; font-style:italic;">Application Team Leader</span> Jan. 2023 – Dec. 2023
+- <span style="color:#1f4e79; font-style:italic;">**Lab Captain**</span>, Jan. 2023 – Dec. 2023
+- <span style="color:#1f4e79; font-style:italic;">**Application Team Leader**</span> Jan. 2023 – Dec. 2023
 - Intern training, Jul. 2022 – Aug. 2022
 - Intern training, Jul. 2024 – Feb. 2025
 
@@ -109,31 +109,36 @@ Mar. 2022 – Feb. 2025
 
 ## Research Project
 ---
-<span style="color:#1f4e79; font-style:italic;">Agreement Manager</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024  
-<span style="color:#1f4e79; font-style:italic;">Center Officer</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023
-<span style="color:#1f4e79; font-style:italic;">Participating Researcher</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
+<span style="color:#1f4e79; font-style:italic;">**Agreement Manager**</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024  
+<span style="color:#1f4e79; font-style:italic;">**Center Officer**</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023  
+<span style="color:#1f4e79; font-style:italic;">**Participating Researcher**</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
 
 <br>
 <br>
 
 ## Selected Recent Publications
 ---
-1. **Yongjae Yoo**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
-2. **Yongjae Yoo**, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
-3. **Yongjae Yoo**, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
-4. Jeongyoon Heo, **Yongjae Yoo**, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
-5. Jihwan Suh, **Yongjae Yoo**, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
-6. Dokyun Ryoo, **Yongjae Yoo**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
+1. <u>**Yongjae Yoo**</u>, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
+
+2. <u>**Yongjae Yoo**</u>, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
+
+3. <u>**Yongjae Yoo**</u>, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
+
+4. Jeongyoon Heo, <u>**Yongjae Yoo**</u>, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
+
+5. Jihwan Suh, <u>**Yongjae Yoo**</u>, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
+
+6. Dokyun Ryoo, <u>**Yongjae Yoo**</u>, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
 
 <br>
 <br>
 
 ## Certifications &amp; Licenses
 ---
-Pilot of an Ultra Light Vehicle — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
-Samsung Software Certificate — Advanced  
-Data Science Specialist — Level 1  
-Generative AI Power User — Level 2  
+**Pilot of an Ultra Light Vehicle** — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
+Samsung **Software Certificate** — Advanced  
+**Data Science** Specialist — Level 1  
+**Generative AI** Power User — Level 2  
 
 <br>
 <br>
