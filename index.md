@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Yongjae Yoo — Staff Engineer (Samsung Electronics, MX)
 permalink: /
 ---
