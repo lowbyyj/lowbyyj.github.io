@@ -13,9 +13,9 @@ permalink: /
 />
 
 # Yongjae Yoo <span style="font-size:.6em; font-weight:600; letter-spacing:.02em;">Ph.D.</span>  
-<span style="color:#777;">Electrical &amp; Computer Engineering, Seoul National University</span>
+<span style="color:#777;">Electrical &amp; Computer Engineering,<br>Seoul National University</span>
 
-### Samsung Electronics — MX (Mobile eXperience) Business  
+### Samsung Electronics <br> MX (Mobile eXperience) Business  
 Communication Processor R&amp;D Team  
 **Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
 
