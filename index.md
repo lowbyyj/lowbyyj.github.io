@@ -16,7 +16,7 @@ permalink: /
 <span style="color:#777;">Electrical &amp; Computer Engineering,<br>Seoul National University</span>
 
 ### Samsung Electronics <br> MX (Mobile eXperience) Business
-Communication Processor R&amp;D Team
+Communication Processor R&amp;D Team  
 **Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
 
 - Home: <https://lowbyyj.github.io>
@@ -24,6 +24,8 @@ Communication Processor R&amp;D Team
 - Email: <yooyongjae@gmail.com>
 
 <div style="clear:both"></div>
+
+
 
 
 
@@ -40,6 +42,8 @@ Communication Processor R&amp;D Team
 
 
 
+
+
 ## Research Interests
 ---
 - Systems / computer structures related to **wireless networks**
@@ -51,12 +55,16 @@ Communication Processor R&amp;D Team
 
 
 
+
+
 ## Recent Research Issues
 ---
 **Drone Networks**
 On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
 
 **Mobile Edge Computing, AI**
+
+
 
 
 
@@ -71,6 +79,8 @@ B.S. in Department of Electrical and Computer Engineering, Feb. 2019
 
 
 
+
+
 ## Experience
 ---
 <span style="color:#1f4e79; font-style:italic;">Exchange Student</span> at **The University of Tokyo**, Tokyo, Japan
@@ -82,6 +92,8 @@ Sep. 2017 – Mar. 2018
 <span style="color:#1f4e79; font-style:italic;">Military Service</span> in **Korean Army**
 Technical Research Personnel
 Mar. 2022 – Feb. 2025
+
+
 
 
 
@@ -101,10 +113,14 @@ Mar. 2022 – Feb. 2025
 
 
 
+
+
 ## Research Project
 ---
 <span style="color:#1f4e79; font-style:italic;">Center Officer</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023
 <span style="color:#1f4e79; font-style:italic;">Participating Researcher</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
+
+
 
 
 
@@ -119,12 +135,16 @@ Mar. 2022 – Feb. 2025
 
 
 
+
+
 ## Certifications &amp; Licenses
 ---
 Pilot of an Ultra Light Vehicle — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
 Samsung Software Certificate — Advanced  
 Data Science Specialist — Level 1  
 Generative AI Power User — Level 2  
+
+
 
 
 
