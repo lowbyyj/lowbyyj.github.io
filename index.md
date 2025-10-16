@@ -23,8 +23,6 @@ Communication Processor R&amp;D Team
 - Phone: (+82) 02 880 8434 <span style="color:#777;">(currently-unavailable)</span>  
 - Email: <yooyongjae@gmail.com>
 
----
-
 <div style="clear:both"></div>
 
 ---
