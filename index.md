@@ -110,7 +110,9 @@ Mar. 2022 – Feb. 2025
 ## Research Project
 ---
 <span style="color:#1f4e79; font-style:italic;">**Agreement Manager**</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024  
+
 <span style="color:#1f4e79; font-style:italic;">**Center Officer**</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023  
+
 <span style="color:#1f4e79; font-style:italic;">**Participating Researcher**</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
 
 <br>
@@ -137,8 +139,11 @@ Mar. 2022 – Feb. 2025
 ## Certifications &amp; Licenses
 ---
 **Pilot of an Ultra Light Vehicle** — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
+
 Samsung **Software Certificate** — Advanced  
+
 **Data Science** Specialist — Level 1  
+
 **Generative AI** Power User — Level 2
 
 <br>
