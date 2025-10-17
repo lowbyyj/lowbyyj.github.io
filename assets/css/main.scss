@@ -199,3 +199,10 @@ blockquote div {
     font-size: 12px;
   }
 }
+
+/* --- Mobile View Alignment Fix --- */
+@media (max-width: 700px) {
+  body {
+    text-align: left !important;
+  }
+}
