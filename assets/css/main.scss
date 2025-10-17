@@ -202,7 +202,11 @@ blockquote div {
 
 /* --- Mobile View Alignment Fix --- */
 @media (max-width: 700px) {
-  body {
-    text-align: left !important;
+  p, li, blockquote {
+    text-align: left;
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4 {
+    text-wrap: balance;
   }
 }
