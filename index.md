@@ -16,7 +16,7 @@ permalink: /
 <span style="color:#777;">Electrical &amp; Computer Engineering,<br>Seoul National University</span>
 
 ### Samsung Electronics <br> MX (Mobile eXperience) Business
-Communication Processor R&amp;D Team
+Communication Processor R&amp;D Team  
 **Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
 
 - Home: <https://lowbyyj.github.io>
@@ -109,8 +109,8 @@ Mar. 2022 – Feb. 2025
 
 ## Research Project
 ---
-<span style="color:#1f4e79; font-style:italic;">**Agreement Manager**</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024
-<span style="color:#1f4e79; font-style:italic;">**Center Officer**</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023
+<span style="color:#1f4e79; font-style:italic;">**Agreement Manager**</span>, *Development of 6G Framework Guaranteeing Application Performance* — supported by **IITP (Korea)**, high-level application–network programmable interface technology development; April 2024 – December 2024  
+<span style="color:#1f4e79; font-style:italic;">**Center Officer**</span>, *Research on Ultra Reliable Aerial Network framework Supporting High-density Urban Air Mobility* — supported by **MSIT (Korea)** under the **ITRC** program, supervised by **IITP**; Jul. 2021 – Mar. 2023  
 <span style="color:#1f4e79; font-style:italic;">**Participating Researcher**</span>, *Research on Wireless PHY/MAC-based Secure Human/Region Differentiation* — supported by **Samsung Research**; 2019 – 2020
 
 <br>
@@ -136,9 +136,9 @@ Mar. 2022 – Feb. 2025
 
 ## Certifications &amp; Licenses
 ---
-**Pilot of an Ultra Light Vehicle** — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11
-Samsung **Software Certificate** — Advanced
-**Data Science** Specialist — Level 1
+**Pilot of an Ultra Light Vehicle** — Unmanned Multicopter (Rating 3rd), Korea Transportation Safety Authority — *Issued:* 2023-05-11  
+Samsung **Software Certificate** — Advanced  
+**Data Science** Specialist — Level 1  
 **Generative AI** Power User — Level 2
 
 <br>
@@ -146,8 +146,8 @@ Samsung **Software Certificate** — Advanced
 
 ## References
 ---
-**Google Scholar** — <https://scholar.google.co.kr/citations?user=O4IdPk4AAAAJ>
-**IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>
+**Google Scholar** — <https://scholar.google.co.kr/citations?user=O4IdPk4AAAAJ>  
+**IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
 <div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2025-10-16</div>
