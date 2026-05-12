@@ -1,21 +1,41 @@
-The MIT License (MIT)
+License and Content Rights
+==========================
 
-Copyright (c) 2025 
+This repository contains the source for Yongjae Yoo's public personal website
+at https://lowbyyj.github.io.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Personal content and assets
+---------------------------
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Unless a file or page explicitly says otherwise, all original personal site
+content is Copyright (c) Yongjae Yoo. All rights reserved.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+This includes, without limitation:
+
+- CV, profile, biography, career, research, publication, and contact text.
+- Personal images, portraits, screenshots, demos, artifacts, and media.
+- Project, exhibition, artifact, and research descriptions.
+- Site-specific written material and presentation of personal/professional
+  information.
+
+No permission is granted by this repository to copy, redistribute, modify,
+scrape, train on, republish, or reuse that personal content or those assets,
+except where allowed by law or with Yongjae Yoo's prior written permission.
+
+Theme and code components
+-------------------------
+
+Third-party theme/code components remain under their original licenses. This
+repository appears to include or adapt parts of the "low" Jekyll theme, which
+is distributed under the MIT License. Existing theme attribution and license
+notices must be preserved.
+
+See THIRD_PARTY_NOTICES.md for preserved third-party notices and attribution.
+
+Repository visibility
+---------------------
+
+This repository is intentionally public as the source for a public GitHub Pages
+CV, career archive, research profile, and project showroom. Public visibility
+does not make the owner's personal content or assets open-source unless that is
+explicitly stated.
