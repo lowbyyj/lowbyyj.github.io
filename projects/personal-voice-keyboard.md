@@ -183,3 +183,13 @@ Possible future directions include:
 - Realtime voice scratchpad exploration.
 - More polished Android capture UI.
 - Possible widget or IME exploration.
+
+## Personal Note
+
+I want to leave a small note to myself here: congratulations on finishing this one.
+
+This project began with a very practical frustration. Even typing a message to an LLM often felt like friction, especially on a phone. I wanted to talk to LLMs more like I think: freely, at length, with corrections handled after the thought was spoken rather than before it was written.
+
+The clipboard-first design became the key. The tool does not immediately send my words into one specific app. It turns speech into cleaned text, puts it on the clipboard, and lets me decide where it goes. That small detail changed the feeling of the whole workflow.
+
+Ironically, this started because I was impressed by ChatGPT-style voice input. After building this, I often prefer my own tool: I can speak for a long time, preserve technical terms, review the cleaned result, edit if needed, and paste it anywhere. It feels less like “dictation” and more like giving my thoughts directly to the computer.
