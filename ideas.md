@@ -17,6 +17,6 @@ A small map of Japan food spots I saved while scrolling through food Shorts.
 
 [Open map →](https://lowbyyj.github.io/my-yt-japan-restaurant/)
 
-**Personal note:**
+### Personal note on this idea
 
 This is not a serious engineering showcase, and that is exactly why I like it. It started as a tiny excuse to save food Shorts I did not want to lose in the scroll, and it turned into a map I would actually open before a trip to Japan.
