@@ -146,9 +146,18 @@ Mar. 2022 – Feb. 2025
 
 Samsung **Software Certificate** — Advanced  
 
-**Data Science** Specialist — Level 1  
+**Data Science** Specialist — Level 2
 
-**Generative AI** Power User — Level 2
+**Generative AI** Power User — Level 3
+
+**Selected badge**
+
+<a class="credential-badge-link" href="https://www.credly.com/badges/3c0092c3-aa2e-4563-a3fa-4d847f1130c9/public_url" target="_blank" rel="noopener noreferrer" aria-label="View AI Builder Hackathon badge on Credly">
+  <img class="credential-badge-image" src="{{ '/assets/images/badges/ai-builder-hackathon-google-cloud-samsung.png' | relative_url }}" alt="AI Builder Hackathon badge issued by Explore Google Cloud">
+</a>
+
+AI Builder Hackathon — Google Cloud x Samsung Electronics<br>
+Issued by Explore Google Cloud
 
 <br>
 <br>
@@ -159,4 +168,4 @@ Samsung **Software Certificate** — Advanced
 **IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
-<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-03-22</div>
+<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-05-20</div>

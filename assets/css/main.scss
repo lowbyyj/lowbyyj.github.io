@@ -135,6 +135,19 @@ img.pixel, canvas.pixel {
   image-rendering: crisp-edges;
 }
 
+.credential-badge-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.credential-badge-image {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* For blog images inside posts */
 .post img,
 article img {
