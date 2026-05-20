@@ -150,14 +150,12 @@ Samsung **Software Certificate** — Advanced
 
 **Generative AI** Power User — Level 3
 
-**Selected badge**
+**AI Builder Hackathon** — Google Cloud x Samsung Electronics<br>
+Issued by Explore Google Cloud
 
 <a class="credential-badge-link" href="https://www.credly.com/badges/3c0092c3-aa2e-4563-a3fa-4d847f1130c9/public_url" target="_blank" rel="noopener noreferrer" aria-label="View AI Builder Hackathon badge on Credly">
   <img class="credential-badge-image" src="{{ '/assets/images/badges/ai-builder-hackathon-google-cloud-samsung.png' | relative_url }}" alt="AI Builder Hackathon badge issued by Explore Google Cloud">
 </a>
-
-AI Builder Hackathon — Google Cloud x Samsung Electronics<br>
-Issued by Explore Google Cloud
 
 <br>
 <br>
