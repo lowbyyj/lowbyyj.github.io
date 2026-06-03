@@ -121,21 +121,23 @@ Mar. 2022 – Feb. 2025
 <span id="publications"></span>
 ## Selected Recent Publications
 ---
-1. **<u>Yongjae Yoo</u>**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
+1. **<u>Yongjae Yoo</u>**, Seungmin Choi, Jeongyeup Paek, and Saewoong Bahk, **Polarization Alignment for Cellular-based Mobile Aerial Communication**, *IEEE Transactions on Vehicular Technology*, **2026** (accepted for publication).
 
-2. **<u>Yongjae Yoo</u>**, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
+2. **<u>Yongjae Yoo</u>**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
 
-3. **<u>Yongjae Yoo</u>**, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
+3. **<u>Yongjae Yoo</u>**, Jihwan Suh, Jeongyeup Paek, and Saewoong Bahk, **Secure Region Detection using Wi-Fi CSI and One-Class Classification**, *IEEE Access*, **Vol. 9**, pp. 65906–65913, **Apr. 2021**.
 
-4. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **NOVA: Navigation Optimization via UWB-Assisted Iterative Path Planning for UAV Delivery**, *IEEE INFOCOM 2026*, Tokyo, Japan, **May 18-21, 2026**.
+4. **<u>Yongjae Yoo</u>**, Jihwan Suh, Yonghun Lee, Seongjoon Kang, Byungjun Kim, and Saewoong Bahk, **Privacy-preserving People Counting with Channel State Information**, *ICTC (International Conference on Information and Communication Technology Convergence)*, **Oct. 2020**.
 
-5. Jeongyoon Heo, **<u>Yongjae Yoo</u>**, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
+5. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **NOVA: Navigation Optimization via UWB-Assisted Iterative Path Planning for UAV Delivery**, *IEEE INFOCOM 2026*, Tokyo, Japan, **May 18-21, 2026**.
 
-6. Jihwan Suh, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
+6. Jeongyoon Heo, **<u>Yongjae Yoo</u>**, Jihwan Suh, Woojin Park, Jeongyeup Paek, and Saewoong Bahk, **FMS-AMS: Secure Proximity-based Authentication for Wireless Access in Internet of Things**, *Journal of Communications and Networks (JCN)*, **Vol. 22**(4), pp. 338–347, **Aug. 2020**.
 
-7. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
+7. Jihwan Suh, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **Deep-Fading Hole Avoidance for Secure Region Detection using Channel State Information**, *JCN*, **Vol. 24**(6), pp. 645–654, **Dec. 2022**.
 
-8. Dongrak Choi, **<u>Yongjae Yoo</u>**, Yubin Choi, Jeongyeup Paek, and Saewoong Bahk, **Escaping from the Shadow: Bottleneck-Aware UAV Placement for High-Throughput Relaying**, *IEEE VTC2026-Spring*, Nice, France, **Jun. 9-12, 2026** (accepted for presentation).
+8. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
+
+9. Dongrak Choi, **<u>Yongjae Yoo</u>**, Yubin Choi, Jeongyeup Paek, and Saewoong Bahk, **Escaping from the Shadow: Bottleneck-Aware UAV Placement for High-Throughput Relaying**, *IEEE VTC2026-Spring*, Nice, France, **Jun. 9-12, 2026** (accepted for presentation).
 
 <br>
 <br>
@@ -166,4 +168,4 @@ Issued by Explore Google Cloud
 **IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
-<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-05-20</div>
+<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-06-03</div>
