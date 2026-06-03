@@ -8,7 +8,9 @@ permalink: /ideas/
 
 Small side projects, web toys, and half-serious things I built because they sounded fun.
 
-## Japan Food Shorts Map
+## Featured ideas
+
+### Japan Food Shorts Map
 
 A small map of Japan food spots I saved while scrolling through food Shorts.
 
@@ -17,6 +19,21 @@ A small map of Japan food spots I saved while scrolling through food Shorts.
 
 [Open map →](https://lowbyyj.github.io/my-yt-japan-restaurant/)
 
-### Personal note on this idea
+#### Personal note on this idea
 
 This is not a serious engineering showcase, and that is exactly why I like it. It started as a tiny excuse to save food Shorts I did not want to lose in the scroll, and it turned into a map I would actually open before a trip to Japan.
+
+---
+
+## Small Tools Shelf
+
+Small app-like utilities I made to remove tiny real-life frictions.
+They are not major engineering showcases, but each one is finished enough to be useful in the situation it was made for.
+
+### Hanabi helper
+
+A tiny phone-first helper for Hanabi sessions. Hanabi is a cooperative card game built around limited information, and our table often plays a lightly modified local version with friends. This helper keeps track of cards that have appeared and helps check what is still unseen, so the table can focus on the game rather than memory bookkeeping.
+
+Type: tabletop utility / small app
+
+Status: personal use
