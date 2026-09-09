@@ -17,7 +17,8 @@ permalink: /
 
 ### Samsung Electronics <br> MX (Mobile eXperience) Business
 Communication Processor R&amp;D Team  
-**Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
+**Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**<br>
+Mar. 2025 – Present
 
 - Home: <https://lowbyyj.github.io>
 - Email: <yooyongjae@gmail.com>
@@ -32,9 +33,7 @@ Communication Processor R&amp;D Team
 
 <div class="current-role" markdown="1">
 
-**Samsung Electronics** · MX Business<br>
-Staff Engineer / System Development<br>
-Mar. 2025 – Present
+**AX Nexus TF** · AI Transformation Task Force
 
 ### Applied AI Engineering
 
@@ -85,12 +84,7 @@ Mar. 2025 – Present
 <div class="research-development" markdown="1">
 
 **<u>AI Agents &amp; Harness Engineering</u>**<br>
-Context engineering, long-term memory, tool integration, browser/computer use<br>
-*Shopping agents:* price search, automated sign-in, purchase history, preferences and reasons behind likes/dislikes<br>
-*Conversational agents:* free-form topic switching, automatic note-taking, memory retrieval<br>
-*Development workflows:* greenfield/brownfield development, cross-session handoffs, context continuity<br>
-*Computer-use reliability:* locale-aware UI automation, failure recovery<br>
-AI-assisted publishing workflows
+Context engineering, long-term memory, user preferences and interaction history, tool integration, browser/computer use, automated sign-in, note-taking and memory retrieval, greenfield/brownfield development, cross-session handoffs, context continuity, locale-aware UI automation, failure recovery, AI-assisted publishing workflows
 
 **<u>Personal AI Tools &amp; Interactive Systems</u>**<br>
 AI-assisted application development, cross-platform voice interfaces ([Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }})), game simulation, state management, reproducible testing, iterative playtesting

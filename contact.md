@@ -7,7 +7,7 @@ permalink: /contact/
 ### So, you're looking for someone...
 
 …who actually builds with AI? 🧠
-- I’ve been using ChatGPT since November 2022, back when it still felt like an underground indie artist. These days, I build and maintain tools I use every day, including my [Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }}), with the help of AI coding agents. I still vibe-code strange ideas for fun.
+- I’ve been using ChatGPT since November 2022, back when it still felt like an underground indie artist. These days, I build and maintain tools I use every day with the help of AI coding agents. I still vibe-code strange ideas for fun.
 
 ...who can learn your entire tech stack before their first coffee break? ☕️
 - Let's just say I have a Ph.D. Mastering new things is kind of my superpower.
