@@ -9,7 +9,7 @@ permalink: /projects/personal-voice-keyboard/
 
 *A private AI dictation system for Windows and Android.*
 
-**Personal Voice Keyboard** is a private AI dictation system built for Windows and Android. It records short speech, routes the audio through a serverless proxy, transcribes it with OpenAI, cleans the result into paste-ready text, and copies it to the clipboard.
+**Personal Voice Keyboard** is a private AI dictation system I built and use daily on Windows and Android. It turns Korean-English mixed speech into cleaned, paste-ready text through a shared serverless proxy and copies the result to the clipboard.
 
 The project focuses on Korean-English mixed dictation, technical terminology preservation, low-friction mobile UX, and secure API key isolation. The core productivity gain is not only transcription, but speech-to-clean-text conversion: speak naturally, receive cleaned text, and paste it anywhere.
 
@@ -46,7 +46,7 @@ Tray app -> Ctrl+F11 start -> Ctrl+F10 stop/send -> Clipboard
 On Android, the primary flow is designed around the Quick Settings tile:
 
 ```text
-Quick Settings tile -> Compact capture -> Stop & Send -> Copied -> Return
+Quick Settings tile -> Overlay capture -> Stop & Send -> Clipboard -> Paste
 ```
 
 The goal is to minimize context switching. I can start recording, stop when finished, wait for processing, and paste the result into whichever app or conversation I was already using.
@@ -81,6 +81,8 @@ Web search is off by default to control cost and latency. It may be explored lat
 
 The model policy prioritizes accuracy over raw speed. The cleanup step is designed to preserve meaning, avoid summarization, remove meaningless fillers, and produce text that is ready to paste.
 
+Model choices are informed by blind comparisons using my own speech samples, considering output quality, latency, and cost.
+
 The cleanup policy follows several constraints:
 
 - Preserve the user's meaning.
@@ -98,13 +100,18 @@ In public terms, the pipeline uses OpenAI transcription followed by GPT-based cl
 
 The Windows client is a packaged executable with a taskbar- and tray-friendly workflow. It supports global hotkeys, microphone selection, an input level meter, recording and processing timers, clipboard copy, and AppData-based persistence.
 
+Daily use revealed that long recordings could produce incomplete transcripts even when requests completed successfully.
+
+- Long recordings are transcribed in overlapping chunks and combined before a single cleanup pass.
+- The latest source recording is retained locally, with retry and discard controls for recovery after processing failures.
+
 Default hotkeys:
 
 - `Ctrl+F12`: show/hide
 - `Ctrl+F11`: start recording
 - `Ctrl+F10`: stop and send
 
-Status: complete and usable.
+Status: In daily use; actively maintained.
 
 ## Android Client
 
@@ -118,7 +125,7 @@ Implementation notes:
 - Proxy configuration persistence via DataStore
 - SharedPreferences migration
 - Runtime microphone permission
-- Foreground-only recording
+- Foreground microphone service with a recording notification
 - MediaRecorder-based audio capture
 - Input level meter
 - Recording and processing timers
@@ -126,11 +133,11 @@ Implementation notes:
 - Retry/discard without losing recorded speech
 - Pending recording preservation
 - Quick Settings tile
-- Compact translucent quick capture activity
+- An overlay panel that lets me keep interacting with the underlying app while recording
 
-The primary Android flow is tile-first: open the Quick Settings tile, launch the compact capture activity, auto-start recording when configuration and permission are available, stop and send, copy the result to the clipboard, and return to the previous task.
+The Quick Settings tile opens an overlay capture panel. Microphone and overlay permissions are explicit, and I can keep touching and scrolling the underlying app while recording.
 
-Status: Android v1 is stable enough for daily personal use.
+Status: In daily use; actively maintained.
 
 ## Security and Privacy
 
@@ -147,14 +154,13 @@ Security and privacy boundaries:
 
 ## Development Workflow
 
-I treated AI-assisted development as a structured product loop rather than a one-shot code generation task. I set product direction and tested the tool in real use; ChatGPT helped with architecture and planning; Codex handled implementation; and daily usage determined the next patch.
+I use AI-assisted development as a structured product loop rather than a one-shot code generation task.
 
-The loop was effective because the roles were explicit:
+- **Me:** Product requirements, UX, final architecture and security decisions, model evaluation, and daily-use validation.
+- **ChatGPT:** Design exploration, trade-off analysis, and review.
+- **Codex:** Scoped implementation, testing, builds, and deployment.
 
-- **User:** product direction, UX testing, and real-world judgment.
-- **ChatGPT:** architecture, planning, prompt design, and debugging strategy.
-- **Codex:** implementation and builds.
-- **Real daily use:** validation of what mattered next.
+Daily use determines the next patch.
 
 ## What I Learned
 
@@ -163,13 +169,13 @@ The loop was effective because the roles were explicit:
 - The same proxy improved both Windows and Android clients without client rebuilds.
 - Glossary-aware prompting solved practical terminology problems without enabling expensive search by default.
 - Real daily use was a better guide than abstract feature planning.
-- AI-assisted development works best when roles are explicit: human decides, ChatGPT plans, Codex implements, and real usage verifies.
+- AI-assisted development works best when human decision-making, AI support, and real-use validation are explicit.
 
 ## Current Status
 
-Personal Voice Keyboard is complete and usable as a private personal workflow.
+In daily use on Windows and Android. Actively maintained; source code is private.
 
-The initial CLI/reference project is frozen as a quality baseline. The serverless proxy is active as the shared transcription and cleanup layer. The Windows client is packaged and usable. The Android v1 app is stable enough for daily personal use.
+The initial CLI/reference project is frozen as a quality baseline. The serverless proxy is active as the shared transcription and cleanup layer. The Windows client is packaged and usable. The Android app is in daily personal use.
 
 ## Future Work
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Before the AI Era: Field-Tested Foundations
+title: "Before the AI Era: Field-Tested Foundations"
 permalink: /projects/field-tested-foundations/
 ---
 

@@ -20,7 +20,6 @@ Communication Processor R&amp;D Team
 **Staff Engineer <span style="font-size:.85em;color:#777;">(과장)</span> / System Development**
 
 - Home: <https://lowbyyj.github.io>
-- Phone: (+82) 02 880 8434 <span style="color:#777;">(currently-unavailable)</span>
 - Email: <yooyongjae@gmail.com>
 
 <div style="clear:both"></div>
@@ -30,14 +29,55 @@ Communication Processor R&amp;D Team
 
 ## Current Role
 ---
-**Intelligent Connectivity Development**
+
+### Applied AI Engineering
+
+#### Engineering Issue Triage
+
+Developing AI workflows to reduce manual reassignment and unnecessary handoffs in product issue resolution.
+
+- Automated owner reassignment integrated with engineering issue workflows
+- Log-assisted initial cause analysis to support triage and investigation
+- Task-specific model evaluation and failure analysis for routing quality
+
+#### Engineering Knowledge Agent
+
+Building a knowledge agent to preserve engineering know-how and make useful answers reusable.
+
+- RAG knowledge base development with structured metadata and automated document curation
+- User feedback collection and conversion of useful question-answer pairs into reusable knowledge pages
+- Layered retrieval that prioritizes curated knowledge pages, then cleaned documentation, and finally original sources
+
+### Intelligent Connectivity Development
 
 - Bluetooth Channel Sounding
 - Wi-Fi CSI data analysis
 - AI Home Device
-- RAG-augmented LLM chatbot
 
-  <sub>details withheld due to company policy</sub>
+<sub>details withheld due to company policy</sub>
+
+<br>
+
+**Personal project:** [Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }}), a daily-use AI dictation tool for Windows and Android.
+
+<br>
+<br>
+
+## Experience
+---
+**Samsung Electronics**<br>
+MX (Mobile eXperience) Business<br>
+**Staff Engineer / System Development**
+
+<span style="color:#1f4e79; font-style:italic;">**Exchange Student**</span> at **The University of Tokyo**, Tokyo, Japan
+Department of Information and Communication Engineering
+Sep. 2017 – Mar. 2018
+- **Language Ability:** JLPT **N1** (Japanese Language Proficiency Test, **Highest** level certified)
+- **Coursework:** Artificial Intelligence (Prof. Hitoshi Iba), Human Interface (Prof. Takeshi Naemura)
+
+<span style="color:#1f4e79; font-style:italic;">**Military Service**</span> in **Korean Army**
+Technical Research Personnel
+Mar. 2022 – Feb. 2025
 
 <br>
 <br>
@@ -54,7 +94,7 @@ Communication Processor R&amp;D Team
 <br>
 <br>
 
-## Recent Research Issues
+## Recent Research Topics
 ---
 **<u>Drone Networks</u>**
 On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
@@ -76,23 +116,11 @@ B.S. in Department of Electrical and Computer Engineering, Feb. 2019
 <br>
 <br>
 
-## Experience
----
-<span style="color:#1f4e79; font-style:italic;">**Exchange Student**</span> at **The University of Tokyo**, Tokyo, Japan
-Department of Information and Communication Engineering
-Sep. 2017 – Mar. 2018
-- **Language Ability:** JLPT **N1** (Japanese Language Proficiency Test, **Highest** level certified)
-- **Coursework:** Artificial Intelligence (Prof. Hitoshi Iba), Human Interface (Prof. Takeshi Naemura)
-
-<span style="color:#1f4e79; font-style:italic;">**Military Service**</span> in **Korean Army**
-Technical Research Personnel
-Mar. 2022 – Feb. 2025
-
-<br>
-<br>
-
 ## Leadership / Teaching
 ---
+**Samsung Electronics**
+- Internal technical seminars on AI workflows and engineering tools
+
 **Ubiquitous Network Laboratory (SNU)**
 - <span style="color:#1f4e79; font-style:italic;">**Lab Captain**</span>, Jan. 2023 – Dec. 2023
 - <span style="color:#1f4e79; font-style:italic;">**Application Team Leader**</span> Jan. 2023 – Dec. 2023
@@ -168,4 +196,4 @@ Issued by Explore Google Cloud
 **IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
-<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-06-03</div>
+<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-09-09</div>

@@ -10,9 +10,9 @@ Selected personal engineering, AI, and research-oriented projects.
 
 ## [Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }})
 
-A private AI dictation tool for Windows and Android. It records speech, routes audio through a secure serverless proxy, transcribes and cleans up the text with OpenAI models, and copies paste-ready output to the clipboard.
+A clipboard-first AI voice input tool for Windows and Android, refined through daily use. It turns Korean-English mixed speech into paste-ready text through a shared serverless proxy.
 
-**Type:** Personal AI Tool / Completed Personal Tool<br>
+**Type:** Personal AI Tool / In Active Daily Use<br>
 **Focus:** Korean-English mixed dictation, technical terminology preservation, clipboard-first UX, and secure API key isolation.
 
 ---
