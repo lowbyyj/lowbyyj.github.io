@@ -30,23 +30,29 @@ Communication Processor R&amp;D Team
 ## Current Role
 ---
 
+<div class="current-role" markdown="1">
+
+**Samsung Electronics** · MX Business<br>
+Staff Engineer / System Development<br>
+Mar. 2025 – Present
+
 ### Applied AI Engineering
+
+<div class="current-role__tasks" markdown="1">
 
 #### Engineering Issue Triage
 
-Developing AI workflows to reduce manual reassignment and unnecessary handoffs in product issue resolution.
-
-- Automated owner reassignment integrated with engineering issue workflows
-- Log-assisted initial cause analysis to support triage and investigation
-- Task-specific model evaluation and failure analysis for routing quality
+- Automated issue routing &amp; assignment
+- Log-assisted preliminary diagnosis
+- Task-specific evaluation &amp; failure analysis
 
 #### Engineering Knowledge Agent
 
-Building a knowledge agent to preserve engineering know-how and make useful answers reusable.
+- RAG indexing, metadata &amp; document curation
+- Feedback-driven Source of Truth (SoT) pages
+- SoT-first retrieval with document fallback
 
-- RAG knowledge base development with structured metadata and automated document curation
-- User feedback collection and conversion of useful question-answer pairs into reusable knowledge pages
-- Layered retrieval that prioritizes curated knowledge pages, then cleaned documentation, and finally original sources
+</div>
 
 ### Intelligent Connectivity Development
 
@@ -56,50 +62,46 @@ Building a knowledge agent to preserve engineering know-how and make useful answ
 
 <sub>details withheld due to company policy</sub>
 
-<br>
-
-**Personal project:** [Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }}), a daily-use AI dictation tool for Windows and Android.
+</div>
 
 <br>
 <br>
 
-## Experience
+## Research &amp; Engineering Interests
 ---
-**Samsung Electronics**<br>
-MX (Mobile eXperience) Business<br>
-**Staff Engineer / System Development**
-
-<span style="color:#1f4e79; font-style:italic;">**Exchange Student**</span> at **The University of Tokyo**, Tokyo, Japan
-Department of Information and Communication Engineering
-Sep. 2017 – Mar. 2018
-- **Language Ability:** JLPT **N1** (Japanese Language Proficiency Test, **Highest** level certified)
-- **Coursework:** Artificial Intelligence (Prof. Hitoshi Iba), Human Interface (Prof. Takeshi Naemura)
-
-<span style="color:#1f4e79; font-style:italic;">**Military Service**</span> in **Korean Army**
-Technical Research Personnel
-Mar. 2022 – Feb. 2025
+- **<u>Applied AI Systems</u>:** agents, tool integration, workflow automation
+- **<u>Retrieval &amp; Knowledge Engineering</u>:** RAG, knowledge curation, feedback-driven improvement
+- **<u>Human–AI Collaboration</u>:** voice interfaces, AI-assisted development, evaluation
+- **<u>Physical Systems &amp; Prototyping</u>:** robotics, embedded systems, hardware–software integration
+- **<u>Wireless &amp; IoT Systems</u>:** sensing, localization, security, network performance
+- **<u>Experimental Platforms</u>:** automated measurement, aerial connectivity, real-world validation
 
 <br>
 <br>
 
-## Research Interests
+## Recent Research &amp; Development
 ---
-- Systems / computer structures related to **<u>wireless networks</u>**
-- **<u>Physical / software solutions</u>** for problems in such systems
-- **<u>Security analysis &amp; mitigation</u>** in wireless networks and mobile devices
-- **<u>Network functions &amp; performance</u>** improvement for IoT devices
-- **<u>Real-world cellular network measurement</u>** &amp; technique development using drones and diverse equipment
-- **<u>Machine learning</u>** applications to the above problems
 
-<br>
-<br>
+<div class="research-development" markdown="1">
 
-## Recent Research Topics
----
-**<u>Drone Networks</u>**
+**<u>AI Agents &amp; Harness Engineering</u>**<br>
+Context engineering, long-term memory, tool integration, browser/computer use<br>
+*Shopping agents:* price search, automated sign-in, purchase history, preferences and reasons behind likes/dislikes<br>
+*Conversational agents:* free-form topic switching, automatic note-taking, memory retrieval<br>
+*Development workflows:* greenfield/brownfield development, cross-session handoffs, context continuity<br>
+*Computer-use reliability:* locale-aware UI automation, failure recovery<br>
+AI-assisted publishing workflows
+
+**<u>Personal AI Tools &amp; Interactive Systems</u>**<br>
+AI-assisted application development, cross-platform voice interfaces ([Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }})), game simulation, state management, reproducible testing, iterative playtesting
+
+**<u>Drone Networks</u>**<br>
 On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
 
-**<u>Mobile Edge Computing, AI</u>**
+**<u>Local AI Platforms &amp; Memory Architectures</u>**<br>
+Local inference platforms, discrete &amp; unified memory, capacity/bandwidth trade-offs, quantization, HBM / DDR / GDDR / LPDDR
+
+</div>
 
 <br>
 <br>
@@ -112,6 +114,21 @@ On-the-air network measurements, real-world experiments, custom Android applicat
 
 **Seoul National University**, Seoul, Republic of Korea
 B.S. in Department of Electrical and Computer Engineering, Feb. 2019
+
+<br>
+<br>
+
+## Experience
+---
+<span style="color:#1f4e79; font-style:italic;">**Exchange Student**</span> at **The University of Tokyo**, Tokyo, Japan
+Department of Information and Communication Engineering
+Sep. 2017 – Mar. 2018
+- **Language Ability:** JLPT **N1** (Japanese Language Proficiency Test, **Highest** level certified)
+- **Coursework:** Artificial Intelligence (Prof. Hitoshi Iba), Human Interface (Prof. Takeshi Naemura)
+
+<span style="color:#1f4e79; font-style:italic;">**Military Service**</span> in **Korean Army**
+Technical Research Personnel
+Mar. 2022 – Feb. 2025
 
 <br>
 <br>

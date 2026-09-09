@@ -84,6 +84,36 @@ h1, h2, h3, h4 {
   margin-top: 4ch;
 }
 
+/* Homepage role hierarchy and research topics */
+.current-role > h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.current-role__tasks {
+  margin-inline-start: 1.5rem;
+}
+
+.current-role__tasks h4 {
+  text-transform: none;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.current-role__tasks h4:first-child {
+  margin-top: 0;
+}
+
+.current-role__tasks ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-inline-start: 1.5em;
+}
+
+.research-development p {
+  text-align: left;
+}
+
 /* ===============================
    CODE & PRE BLOCKS
    =============================== */
@@ -215,6 +245,10 @@ blockquote div {
 
 /* --- Mobile View Alignment Fix --- */
 @media (max-width: 700px) {
+  .current-role__tasks {
+    margin-inline-start: 0.75rem;
+  }
+
   p, li, blockquote {
     text-align: left;
     text-wrap: pretty;
