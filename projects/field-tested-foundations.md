@@ -42,11 +42,11 @@ The engineering problem was larger than putting a phone on a drone. The drone ha
 
 I also had to understand what the phone was connected to, not only whether it had signal. That meant investigating serving-cell information, measurement APIs, available public cell-site information, and the limits of what a normal mobile device could report in the field.
 
-The result was a practical aerial measurement platform: drone, smartphone, Android logging app, flight mission, raw measurement logs, and offline analysis pipeline. The platform later supported research on aerial cellular connectivity.
+The result was a practical aerial measurement platform: drone, smartphone, Android logging app, flight mission, raw measurement logs, and offline analysis pipeline. The platform later supported my research on aerial cellular connectivity, published in [IEEE TVT]({{ '/#publications' | relative_url }}) (2025).
 
 ## Motorized Antenna Polarization Measurement System
 
-For polarization-related wireless experiments, I needed more than a model. I needed a way to rotate a real antenna in the air, control it remotely, and compare the measurement with MATLAB-based analysis.
+For the polarization experiments behind my [IEEE TVT paper]({{ '/#publications' | relative_url }}) (2026), I needed more than a model. I needed a way to rotate a real antenna in the air, control it remotely, and compare the measurement with MATLAB-based analysis.
 
 I built a drone-mounted motorized antenna setup using a Raspberry Pi with cellular connectivity, remote Linux access, Python-based GPIO control, and two servo motors arranged in series to rotate the antenna across controlled angles. The system connected mathematical modeling, simulation, antenna orientation, motor control, remote access, drone payload constraints, and RF measurement into one experiment.
 

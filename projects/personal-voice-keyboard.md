@@ -9,190 +9,68 @@ permalink: /projects/personal-voice-keyboard/
 
 *A private AI dictation system for Windows and Android.*
 
-**Personal Voice Keyboard** is a private AI dictation system I built and use daily on Windows and Android. It turns Korean-English mixed speech into cleaned, paste-ready text through a shared serverless proxy and copies the result to the clipboard.
-
-The project focuses on Korean-English mixed dictation, technical terminology preservation, low-friction mobile UX, and secure API key isolation. The core productivity gain is not only transcription, but speech-to-clean-text conversion: speak naturally, receive cleaned text, and paste it anywhere.
-
-## Overview
-
-The main workflow is intentionally simple:
-
-```text
-Speak -> Stop -> Transcribe -> Clean up -> Clipboard -> Paste
-```
-
-The system is designed as a completed personal tool rather than a public product or open-source release. It is currently used as a private workflow for faster, cleaner communication with LLMs and other writing surfaces.
+Personal Voice Keyboard is a voice input tool I built for Windows and Android and use every day. Even when Korean and English are mixed in one sentence, it decides which terms to keep in their original language, tidies up the wording, and puts the result on the clipboard, ready to paste anywhere. It also keeps learning from the corrections I make.
 
 ## Why I Built It
 
-Typing long messages to LLMs is tedious. I wanted to have real conversations with LLMs, not slow finger-typed exchanges.
+Typing long messages to LLMs is tedious. I wanted real conversations with them, not slow finger-typed exchanges.
 
-ChatGPT-style voice input was useful, but it remained tied to a specific app or interface. I wanted a clipboard-first workflow that worked across tools:
+ChatGPT-style voice input was useful, but it stayed inside one app. I wanted to speak, get clean text, and paste it into whatever I was already using. I also needed Korean-first dictation that keeps intentional English terms, model names and shell commands intact. The real problem was never just speech recognition; it was turning speech into reliable, paste-ready technical text.
 
-```text
-Speak -> get cleaned text -> paste anywhere
-```
+## How It Works
 
-I also needed Korean-first dictation that could preserve intentional English terms, model names, shell commands, and technical phrases. For my use case, the important problem was not only speech recognition. It was turning speech into reliable, paste-ready technical text.
-
-## User Experience
-
-On Windows, the tool behaves like a lightweight keyboard-side utility:
+I press a key or tap a tile, speak, and stop. The audio goes to a small serverless proxy, gets transcribed and cleaned up, and comes back as text on the clipboard.
 
 ```text
-Tray app -> Ctrl+F11 start -> Ctrl+F10 stop/send -> Clipboard
+Windows / Android app
+        |  audio + app token
+        v
+Cloudflare Worker proxy   (API key, model choice, cleanup rules, glossary)
+        |
+        v
+OpenAI transcription  ->  GPT-based cleanup
+        |
+        v
+clean text  ->  clipboard
 ```
 
-On Android, the primary flow is designed around the Quick Settings tile:
+The apps know only the proxy address and an app token. The API key, model choice, cleanup rules and a terminology glossary all live in the proxy, so both apps improve together whenever the proxy does, without a rebuild.
 
-```text
-Quick Settings tile -> Overlay capture -> Stop & Send -> Clipboard -> Paste
-```
+The cleanup follows a simple rule: keep the meaning and the intentional English terms, drop meaningless fillers, and never summarize or invent. Models are picked by blind comparisons on my own speech, weighing quality against latency and cost, and a newer model is an option rather than an automatic upgrade.
 
-The goal is to minimize context switching. I can start recording, stop when finished, wait for processing, and paste the result into whichever app or conversation I was already using.
+## What's New (October 2026)
 
-## System Architecture
+**Fix it where you read it.** Both apps now have a Review screen. I edit the result, the corrected text goes straight back to the clipboard, and the proxy learns misheard terms and punctuation habits from the difference. Rather than scoring edits with fixed rules, it reads the whole before and after, and each reply says exactly what was learned.
 
-```text
-Windows Client / Android App
-        |
-        | audio file + app token
-        v
-Cloudflare Worker Proxy
-        |
-        | protected OpenAI API key
-        v
-OpenAI transcription
-        |
-        v
-GPT-based cleanup
-        |
-        v
-clean_text -> clipboard
-```
+## Windows and Android
 
-The architecture keeps the OpenAI API key out of the Windows and Android clients. Clients only know the proxy URL and an app token. The Cloudflare Worker proxy centralizes model selection, cleanup policy, glossary handling, and safety boundaries.
+On Windows, PVK lives in the system tray. One hotkey handles both recording and sending, and a slim bar appears only while it is listening or processing, with an estimated finish time while it works.
 
-This was an important design choice because both clients can improve when the proxy prompt, glossary, or model policy is updated. A server-side terminology glossary helps preserve technical terms such as `sudo`, `systemctl`, `journalctl`, Jetpack Compose, and Cloudflare Workers.
+Daily use turned up one real problem: long recordings could come back incomplete even when every request had succeeded. Long takes are now transcribed in overlapping chunks and stitched together before a single cleanup pass, and the latest recording stays on disk, so a failed run can be retried instead of spoken again.
 
-Web search is off by default to control cost and latency. It may be explored later only as a fallback for uncertain proper nouns or emerging terms. Exact internal prompts and deployment details remain private.
-
-## Model and Prompt Policy
-
-The model policy prioritizes accuracy over raw speed. The cleanup step is designed to preserve meaning, avoid summarization, remove meaningless fillers, and produce text that is ready to paste.
-
-Model choices are informed by blind comparisons using my own speech samples, considering output quality, latency, and cost.
-
-The cleanup policy follows several constraints:
-
-- Preserve the user's meaning.
-- Do not summarize.
-- Do not invent details.
-- Remove meaningless fillers.
-- Preserve intentional English technical terms.
-- Correct misrecognitions only when context strongly supports the correction.
-- Avoid overcorrection.
-- Treat newer models as options, not automatic upgrades, if the current quality and cost target is already met.
-
-In public terms, the pipeline uses OpenAI transcription followed by GPT-based cleanup. The detailed private prompts, exact deployment configuration, and operational secrets are not part of this public page.
-
-## Windows Client
-
-The Windows client is a packaged executable with a taskbar- and tray-friendly workflow. It supports global hotkeys, microphone selection, an input level meter, recording and processing timers, clipboard copy, and AppData-based persistence.
-
-Daily use revealed that long recordings could produce incomplete transcripts even when requests completed successfully.
-
-- Long recordings are transcribed in overlapping chunks and combined before a single cleanup pass.
-- The latest source recording is retained locally, with retry and discard controls for recovery after processing failures.
-
-Default hotkeys:
-
-- `Ctrl+F12`: show/hide
-- `Ctrl+F11`: start recording
-- `Ctrl+F10`: stop and send
-
-Status: In daily use; actively maintained.
-
-## Android Client
-
-The Android app is also named **Personal Voice Keyboard**.
-
-Implementation notes:
-
-- Package: `com.pvk.voicekeyboard`
-- Minimum SDK: API 28
-- Kotlin + Jetpack Compose
-- Proxy configuration persistence via DataStore
-- SharedPreferences migration
-- Runtime microphone permission
-- Foreground microphone service with a recording notification
-- MediaRecorder-based audio capture
-- Input level meter
-- Recording and processing timers
-- Adaptive timeout
-- Retry/discard without losing recorded speech
-- Pending recording preservation
-- Quick Settings tile
-- An overlay panel that lets me keep interacting with the underlying app while recording
-
-The Quick Settings tile opens an overlay capture panel. Microphone and overlay permissions are explicit, and I can keep touching and scrolling the underlying app while recording.
-
-Status: In daily use; actively maintained.
+On Android, a Quick Settings tile opens a small capture panel over whatever app I'm using, so I can keep scrolling and tapping underneath while I talk. The app shares the Windows look and has a Korean interface, and a failed recording is never lost: I can retry it or discard it.
 
 ## Security and Privacy
 
-This is currently a personal-use tool, not a public service or open-source release.
-
-Security and privacy boundaries:
-
-- The OpenAI API key is stored only in Cloudflare Worker secrets.
-- Windows and Android clients do not contain OpenAI API keys.
-- Clients store only the proxy URL and proxy token.
-- Audio is sent to the proxy for transcription and cleanup.
-- Source code is currently private.
-- Actual proxy tokens, OpenAI keys, full internal prompts, exact private deployment details, logs, and private repository paths are not published.
+For now, PVK is a tool I use myself, not a public service, and its source is private. I may release it someday. The OpenAI key never goes into the apps. It stays on the proxy, and the apps only know how to reach it.
 
 ## Development Workflow
 
-I use AI-assisted development as a structured product loop rather than a one-shot code generation task.
-
-- **Me:** Product requirements, UX, final architecture and security decisions, model evaluation, and daily-use validation.
-- **ChatGPT:** Design exploration, trade-off analysis, and review.
-- **Codex:** Scoped implementation, testing, builds, and deployment.
-
-Daily use determines the next patch.
+I make the product calls: what it should do, how it should feel, what counts as safe, and which model is worth the cost. Daily use decides the next patch. It is also one of the projects I run on [my AI agent harness]({{ '/projects/agent-harness/' | relative_url }}).
 
 ## What I Learned
 
-- The most important metric was not raw model latency, but total user time: waiting plus manual correction.
-- A serverless proxy was the right architectural choice because it protected API keys and centralized model policy.
-- The same proxy improved both Windows and Android clients without client rebuilds.
-- Glossary-aware prompting solved practical terminology problems without enabling expensive search by default.
-- Real daily use was a better guide than abstract feature planning.
-- AI-assisted development works best when human decision-making, AI support, and real-use validation are explicit.
+- The number that mattered was total time, waiting plus fixing, not raw model speed.
+- A glossary in the cleanup step fixed most terminology problems without turning on expensive search for everything.
+- Daily use was a better guide than any feature plan.
 
-## Current Status
+## Status and What's Next
 
-In daily use on Windows and Android. Actively maintained; source code is private.
-
-The initial CLI/reference project is frozen as a quality baseline. The serverless proxy is active as the shared transcription and cleanup layer. The Windows client is packaged and usable. The Android app is in daily personal use.
-
-## Future Work
-
-Possible future directions include:
-
-- Optional public release.
-- Privacy policy and Play Store preparation.
-- Better onboarding for non-technical users.
-- Optional glossary editor.
-- Optional search fallback for uncertain proper nouns.
-- Realtime voice scratchpad exploration.
-- More polished Android capture UI.
-- Possible widget or IME exploration.
+In daily use on Windows and Android, and still changing as I use it. Possible next steps: a Play Store release with a proper privacy policy and simpler onboarding, a glossary editor, and a search fallback for names it isn't sure about.
 
 ## Personal Note
 
-I want to leave a small note to myself here: congratulations on finishing this one.
+I want to leave a small note to myself here: congratulations on finishing this one. Finished, that is, until tomorrow's use turns up the next thing to fix.
 
 This project began with a very practical frustration. Even typing a message to an LLM often felt like friction, especially on a phone. I wanted to talk to LLMs more like I think: freely, at length, with corrections handled after the thought was spoken rather than before it was written.
 
