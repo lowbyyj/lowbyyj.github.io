@@ -84,13 +84,13 @@ Mar. 2025 – Present
 <div class="research-development" markdown="1">
 
 **<u>AI Agents &amp; Harness Engineering</u>**<br>
-Context engineering, long-term memory, user preferences and interaction history, tool integration, browser/computer use, automated sign-in, note-taking and memory retrieval, greenfield/brownfield development, cross-session handoffs, context continuity, locale-aware UI automation, failure recovery, AI-assisted publishing workflows
+[Multi-agent orchestration]({{ '/projects/agent-harness/' | relative_url }}), context engineering, long-term memory, user preferences and interaction history, tool integration, browser/computer use, automated sign-in, note-taking and memory retrieval, greenfield/brownfield development, cross-session handoffs, context continuity, locale-aware UI automation, failure recovery, AI-assisted publishing workflows
 
 **<u>Personal AI Tools &amp; Interactive Systems</u>**<br>
-AI-assisted application development, cross-platform voice interfaces ([Personal Voice Keyboard]({{ '/projects/personal-voice-keyboard/' | relative_url }})), game simulation, state management, reproducible testing, iterative playtesting
+[AI-assisted application development]({{ '/projects/' | relative_url }}), [cross-platform voice interfaces]({{ '/projects/personal-voice-keyboard/' | relative_url }}), [Android widgets]({{ '/projects/ai-gauge/' | relative_url }}) and utilities, browser extensions, game simulation, state management, reproducible testing, iterative playtesting
 
 **<u>Drone Networks</u>**<br>
-On-the-air network measurements, real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
+[On-the-air network measurements]({{ '/projects/field-tested-foundations/' | relative_url }}), real-world experiments, custom Android application, reinforcement learning, maintaining connectivity, *mmWave* communication, beam selection, polarization alignment, commercial base station analysis
 
 **<u>Local AI Platforms &amp; Memory Architectures</u>**<br>
 Local inference platforms, discrete &amp; unified memory, capacity/bandwidth trade-offs, quantization, HBM / DDR / GDDR / LPDDR
@@ -129,9 +129,6 @@ Mar. 2022 – Feb. 2025
 
 ## Leadership / Teaching
 ---
-**Samsung Electronics**
-- Internal technical seminars on AI workflows and engineering tools
-
 **Ubiquitous Network Laboratory (SNU)**
 - <span style="color:#1f4e79; font-style:italic;">**Lab Captain**</span>, Jan. 2023 – Dec. 2023
 - <span style="color:#1f4e79; font-style:italic;">**Application Team Leader**</span> Jan. 2023 – Dec. 2023
@@ -142,6 +139,20 @@ Mar. 2022 – Feb. 2025
 - 400.420 Engineering Research Practice 2, *Wi-Fi signal CSI analysis and machine learning application*, Spring 2020
 - 400.420 Engineering Research Practice 2, *Spatial information analysis using Wi-Fi CSI data*, Fall 2020
 - 430.405 Design Project for Electrical Devices & Systems, *Wi-Fi CSI Analysis Study for People Counting with Obstacles in Disaster Sites*, Spring 2022
+
+<br>
+<br>
+
+## Talks &amp; Writing
+---
+**Samsung Electronics** — internal talks, each to about 200 colleagues
+- *Building AI agents in a secure corporate environment*
+- *A single source of truth everyone writes*: a campaign to get colleagues contributing through an in-house AI assistant, covering the platform and its architecture, making it part of everyday work, demo videos, and the skills, plugins and MCP servers behind it
+
+**[aicardnews.com](https://aicardnews.com)**
+- <span style="color:#1f4e79; font-style:italic;">**Founder &amp; Editor**</span>, Nov. 2025 – Present
+- At-a-glance AI news briefs, columns, and my own opinionated AI leaderboard, written in Korean for everyday readers
+- Rebuilt from the ground up and relaunched in Sep. 2026
 
 <br>
 <br>
@@ -207,4 +218,4 @@ Issued by Explore Google Cloud
 **IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
-<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-09-09</div>
+<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-10-20</div>
