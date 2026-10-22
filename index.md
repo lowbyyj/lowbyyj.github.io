@@ -171,7 +171,7 @@ Mar. 2022 – Feb. 2025
 <span id="publications"></span>
 ## Selected Recent Publications
 ---
-1. **<u>Yongjae Yoo</u>**, Seungmin Choi, Jeongyeup Paek, and Saewoong Bahk, **Polarization Alignment for Cellular-based Mobile Aerial Communication**, *IEEE Transactions on Vehicular Technology*, **2026** (accepted for publication).
+1. **<u>Yongjae Yoo</u>**, Seungmin Choi, Jeongyeup Paek, and Saewoong Bahk, **Polarization Alignment for Cellular-based Mobile Aerial Communication**, *IEEE Transactions on Vehicular Technology*, **Jun. 2026**.
 
 2. **<u>Yongjae Yoo</u>**, Jihwan Suh, Dongrak Choi, Jeongyeup Paek, and Saewoong Bahk, **ASCEND: Altitude Selection for High-quality Cellular Connectivity on Drones**, *IEEE Transactions on Vehicular Technology*, **Aug. 2025**.
 
@@ -187,7 +187,7 @@ Mar. 2022 – Feb. 2025
 
 8. Dokyun Ryoo, **<u>Yongjae Yoo</u>**, Jeongyeup Paek, and Saewoong Bahk, **SPADE: Secure Periodic Advertising using Coded Time-Channel Rendezvous for BLE Audio**, *DCOSS-IoT*, **Best paper runner-up**, Coral Bay, Pafos, Cyprus, **Jun. 19–21, 2023**.
 
-9. Dongrak Choi, **<u>Yongjae Yoo</u>**, Yubin Choi, Jeongyeup Paek, and Saewoong Bahk, **Escaping from the Shadow: Bottleneck-Aware UAV Placement for High-Throughput Relaying**, *IEEE VTC2026-Spring*, Nice, France, **Jun. 9-12, 2026** (accepted for presentation).
+9. Dongrak Choi, **<u>Yongjae Yoo</u>**, Yubin Choi, Jeongyeup Paek, and Saewoong Bahk, **Escaping from the Shadow: Bottleneck-Aware UAV Placement for High-Throughput Relaying**, *IEEE VTC2026-Spring*, Nice, France, **Jun. 9-12, 2026**.
 
 <br>
 <br>
@@ -218,4 +218,4 @@ Issued by Explore Google Cloud
 **IEEE Authors** — <https://ieeexplore.ieee.org/author/37088591598>  
 **LinkedIn** — <https://www.linkedin.com/in/lowbyyj/>
 
-<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-10-20</div>
+<div style="margin-top:1.2rem; font-size:.85em; color:#999;">Last updated: 2026-10-22</div>
